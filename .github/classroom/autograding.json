@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Sumar",
+      "setup": "npm install",
+      "run": "npm run test sumar.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Convertir a Dólar",
+      "setup": "",
+      "run": "npm run test convertirADolar.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Calcular Perímetro Círculo",
+      "setup": "",
+      "run": "npm run test calcularPerimetroCirculo.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
